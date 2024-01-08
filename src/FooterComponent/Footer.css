@@ -1,0 +1,105 @@
+.footer {
+  /*margin-top: auto;*/
+  /*position: absolute;
+  left: 0;
+  bottom: 0;*/
+  width: 100%;
+  /*z-index: 1000;*/
+  /*max-height: 80vh;*/
+  /*height: 100%;*/
+}
+
+.mainContaint{
+	background-color: #eaeef3;
+	color: #333;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.social-icons span {
+  margin: 5px;
+}
+
+.social-icons .facebook-icon,
+.social-icons .twitter-icon,
+.social-icons .instagram-icon,
+.social-icons .youtube-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons .facebook-icon {
+  text-decoration: none;
+  background-color: rgb(61, 82, 166);
+}
+
+.social-icons .twitter-icon {
+  text-decoration: none;
+  background-color: rgb(88, 177, 247);
+}
+
+.social-icons .instagram-icon {
+  text-decoration: none;
+  background-color: rgb(217, 73, 140);
+}
+
+.social-icons .youtube-icon {
+  text-decoration: none;
+  background-color: rgb(246, 45, 58);
+}
+
+.social-icons .facebook-icon:hover,
+.social-icons .twitter-icon:hover,
+.social-icons .instagram-icon:hover,
+.social-icons .youtube-icon:hover {
+  background-color: #555;
+}
+
+.bottomElementor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.elementor .row .col-sm-3 ul li {
+	color: #727272;
+    font-family: dm sans,Sans-serif;
+    font-size: 17px;
+     font-weight: 400; 
+    line-height: 35px;
+}
+.elementor .row .col-sm-3 ul li a {
+  text-decoration: none;
+  color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: 0.5px;
+}
+
+
+/* Add space between sections in the responsive layout */
+.col-sm-3 {
+  margin-bottom: 20px;
+}
+
+/* Add space between social icons and the heading */
+.col-sm-3 h5 {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,98 @@
+http://localhost/traveler/admin_registration_api.php 
+{
+    "fname" : "ram",
+    "lname" : "kumar",
+    "email" : "ram@gmail.com",
+    "phone" : "9892501821",
+    "password" : "123456",
+    "admin_type" : "admin",
+    "admin_status" : "1",
+    "created_by" : "26/11/2023"
+}
+
+///////
+
+http://localhost/traveler/user_registration_api.php
+{
+    "adminid" : "1",
+    "fname" : "ram",
+    "lname" : "kumar",
+    "email" : "ram@gmail.com",
+    "phone" : "9892501821",
+    "password" : "123456",
+    "user_type" : "admin",
+    "user_status" : "1",
+    "user_created" : "26/11/2023"
+}
+
+//////
+
+http://localhost/traveler/admin_all_data.php
+
+////////
+
+http://localhost/traveler/users_all_data.php
+
+/////
+
+http://localhost/traveler/admin_single_data.php
+
+{
+    "admin_id" : "1"
+}
+
+/////
+
+http://localhost/traveler/users_single_data.php
+
+{
+    "user_id" : "1"
+}
+
+/////
+
+http://localhost/traveler/admin_delete.php
+
+{
+    "admin_id" : "2"
+}
+
+/////
+
+http://localhost/traveler/users_delete.php
+
+{
+    "user_id" : "1"
+}
+
+/////
+
+http://localhost/traveler/admin_update.php
+
+{
+    "admin_id" :"2",
+    "fname" : "ramesh",
+    "lname" : "kumar",
+    "email" : "ram@gmail.com",
+    "phone" : "9892501811"
+}
+
+////
+
+http://localhost/traveler/users_update.php
+
+{
+    "user_id" :"1",
+    "fname" : "ramesh",
+    "lname" : "kumar",
+    "email" : "ram@gmail.com",
+    "phone" : "9892501821"
+}
+
+/////
+
+http://localhost/traveler/admin_search.php?email=ram@gmail.com
+
+/////
+
+http://localhost/traveler/users_search.php?email=ram@gmail.com
